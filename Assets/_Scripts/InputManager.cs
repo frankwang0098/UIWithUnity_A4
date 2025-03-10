@@ -13,7 +13,9 @@ public class InputManager : MonoBehaviour
         {
             OnSettingsMenu?.Invoke();
         }
-            Vector2 input = Vector2.zero;
+        if (GameManager.Instance.IsSettingsMenuActive) return;
+
+        Vector2 input = Vector2.zero;
         if (Input.GetKey(KeyCode.W))
         {
             input += Vector2.up;
