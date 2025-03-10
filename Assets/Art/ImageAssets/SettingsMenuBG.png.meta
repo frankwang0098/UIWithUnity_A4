@@ -114,12 +114,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 150
-        width: 445
-        height: 293
+        y: 0
+        width: 451
+        height: 451
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 30, z: 30, w: 30}
       customData: 
       outline: []
       physicsShape: []
@@ -140,7 +140,7 @@ TextureImporter:
         width: 451
         height: 451
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 30, y: 30, z: 30, w: 30}
       customData: 
       outline: []
@@ -149,6 +149,50 @@ TextureImporter:
       bones: []
       spriteID: 1794e0550b57f4645b8bd9e194637be5
       internalID: -359901147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SettingsMenuBG_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 451
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb75200d252c520489c812e2e3f65398
+      internalID: 314414371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SettingsMenuBG_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 451
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 30, z: 30, w: 30}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984c444d6b5c56647b11d6f68fc9f4ce
+      internalID: 1879002216
       vertices: []
       indices: 
       edges: []
@@ -169,6 +213,8 @@ TextureImporter:
     nameFileIdTable:
       SettingsMenuBG_0: 636056559
       SettingsMenuBG_1: -359901147
+      SettingsMenuBG_2: 314414371
+      SettingsMenuBG_3: 1879002216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
